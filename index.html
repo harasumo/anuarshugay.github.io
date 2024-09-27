@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="bg-dark text-white p-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main class="container my-5">
+       <!-- About Me Section -->
+<section id="about" class="text-center">
+    <img src="myphoto2.jpg" alt="Shugay Anuar" class="rounded-circle" style="width: 300px; height: 300px; object-fit: cover; margin-bottom: 20px;">
+    <h1 class="my-3">Shugay Anuar</h1>
+    <p>Hello, I’m Anuar and I am a logo design specialist.</p>
+</section>
+
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="my-5">
+            <h2>My Projects:</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAk1BMVEUAAAD////6+/oMDAz29vbx8vGys7KRk5Cmp6WhoaHq6upTVFPe397Oz80xNDHIyciHiIYoKSfU1dRNT0x8fXtZW1gkJSRnZ2TAv76LhoUxMDEACA+WmZs4OzhSVlFzdnNCREIACAEUFRMWGhQwLSQaGBI5NzIvKiopIyEZFBROSUpzcG8MAABDQESUkZQsLykjKy3486KgAAAEWUlEQVR4nO2c7VbiMBCGaZp+hdRCaW1xwSLquoqr3v/VLQUUaAse2ilvcef55zHnOK+ZmWQmSXs9hmEYhmEYhmEYhmEYhmEYhmEYhmEYCqaR00fbQMOtrZUlJ2gzKIi0NHJctCHNyZSx4eLF9H3D+CFirgdyq8Xw0OY04srekWIIB21PE2bprhbDitAGNWAU7GkxdIy2qD5XBS1GcI02qTZ3dkGLuOBktpfHctQCbVJt+mFBixGiTapNyckMOUDbVJuFVRSj0SbVZliaGHG5i0xcmhgfbVJt5l5RizVD21SbG10Uc7nR3xsVtVzwetkbFLTYQ7RF9TH3d8tGeoW2qAFm+GPmZSlG7UixLrokW4rZrjLSv+AiZsWXGBle0rQMR4tosCRKRjuBYa6WGakD56scu5vG2XKkM4iyfifTwXXmpaGSYolUYepFs80vTDcMUteJ7zc/z2PHDrQlxXKLJq0wdaN3kMmHmHr+bpznoR7a0XoqpqPZtkQeeYEW+yOV745Qdlcwd4sGrvVoO9kbdx+llQOFtjvjbZmqsvBTz2ITP8NFqkrb5+30dGS/lh6Usv63S6VDPw+n48PCDoROrI7aeAJWBpZiDg57zskIz0RqmTvFFlIzNS6wM0isZYk7h4kptfaaA/O0jDBePkGddEzJ8tgOFmi98b837WTSGBM0Dr0U4YGy2QN98OMO0+idTMF2AAl5JgMeDKTfW3ciuNbgbanl2pQApqXnUYe/9QDT8kjuZcDaLKH2Mv2IE0O+W06+/5ut4RJrUVOclt/UIeMAS8yYOGQE0suoCxmNbAIWz8KaYt8AxVDv/j1c5U8vBtrNLB3sNwN6X8OkFoNsZbKYY2J+kptBEwC5GORuhjqbGch+Ofk6EwA3zb03YjEW8mEQ9d7MQObmiLrQtIFBk1D3/yUwaMp3rpsyxol5Iu80WcAigLqhAX3nNCEXY/yBicnoTwD9Z5SYF/IMAHS0V/oTDUPAMpp7/FZPLWCngIufdGz+RH7YlCM8TBZoIWhygieEmPJjJSIQl2deW/GzHDmenl1P6ekVHersvvZCf0Pjk/TcWnq9FjYBa8TL+cUkbYmB3AhoY93M+YsQM25HC+bZ43M7Sw0gYnKo22crUHdohm1EDSRiclqIGhdWcM7I1xoFipgc6tamGL/ixNwQVwIp8kIAcaMW/GEN0yNsBggX+uRk6WiEOSCEOlkOnaOpDjyvpeo6iU58VovI0brxXY13EkdTHfl204LA0WQHAmYNwVF6R96c5jQ+fOpE8G+4bth4Aj4CrOCjkRrodZMKDs+NpVPX81w7PZT0BPSKZjVOVU7TTn8+N9fMP7K0omSQb2jLqyhd3bbs8l2FcXGQ7uoHdb2dDwNI5Va/ic/0tqsjVJfSWIFfE18ry1JKB4NfB0fFdrgapf3J4UGdYJpEg+z24/ggc5REUTI7i0EMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAM8x/wDxgoPuJUW6/wAAAAAElFTkSuQmCC" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1: Apple logo</h5>
+                            <p class="card-text">I accidentally took a bite out of Newton's apple and I got this:/</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEUAAAD///+1tbXy8vKNjY1ubm5MTEyampppaWnx8fH4+Pjb29v19fUlJSVSUlLi4uK9vb3Kysqtra1+fn6ioqJ4eHjp6enDw8MyMjLQ0NBZWVk/Pz8WFhZHR0fU1NRzc3M6OjoLCwucnJxhYWGHh4ceHh4jIyMZGRkrKyuQiNwPAAAC+ElEQVR4nO3a6XqqMBCAYYOoIIiIuNZau9r7v8IjSz0oi4AkwPN872/NzMgkhMhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPTOe9sJyDYetxt/tpUdQJMcoJDjf3zKjjH8lR0hz1bf2ZrsCzgYzF3pITKt3KEwvxQE2omZgih3Pr25EGLhqIjliYWKMAnjiSUC/reScLoQeyWBIlt9EVYn5ktFEQ0hTEWhBueVa0bliY2S9gy8BM2iJJLhrePqxNQ/KwkZml4CnqRHcXxLXClrz1AQeCg3xOWOJxI2andPWhBT4s1wtnTtZHlT/yAvWJZVGFaXNLqhrcUNte0Z2EaBZaxq++TEa6U9Q/FP/NPwsC+3E6+d9gxpcfQmx/xZbqap8sR81WSM0vZ/P29jI47uJ1577RmyG61w78+zqmupPUPeNYmnh3qdHDOra609Q6f/aTz19Dv7ypp4Efe1qWzrSCzmRt0xDm+amVedsD+aTLc6I5GLV2uE6Ak2j9Vie0aSi55d+dvj3IkXt+eLhJSrGd0k9Fblq5cn2NyJF5pOunD2ettgpZ+AD8HRUTGr0s8ljXOXVqnTUqNw4sXt2erqmbC5z+zR44WT3kin2RMlyZeSzq4guayNdIaOtGdkmZHgLnN5OC83dsaH0zqweiZlXxPvdPupn7fsjXTasEPtGcnLdO3qxut2e3IM3duVu3YX1qjtelL2j7Mur2PtGZk0Vl732jOSulfU1MH2jD2+cZfRyfaMlV5D8nW1PWPFG+cSutuesSfr0zrcnrFnrqHZ7faM5Z88PHLsenvGip/P8yl4ZaIhfp3yTFn/38hQY9d2rH0e145HJxH3tFPbGVelVymvV+15VX417Vt7/hmXbc/erJ4pWecY99a9bM+rh1Nxo/I9KSlWReVZKt4XlO43b2tz1NW8T6eAs0jPPa0nO8+y3lfaPH4eNi1Xl/4qclsO3wrfowMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB66B90Khxsnli+aAAAAABJRU5ErkJggg==" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2: Nike logo</h5>
+                            <p class="card-text">Phil Knight himself asked me to make a logo for him:)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="data:image/png;base64,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" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3:NBA logo</h5>
+                            <p class="card-text">I love nba and basketball,that's why i did this one for them :D</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+<footer id="contact" class="bg-dark text-white text-center p-4">
+    <h5>Contact me:</h5>
+    <p>Email: 230111@astanait.edu.kz</p>
+    <p>
+        <a href="https://www.instagram.com/harasumoo/" target="_blank" class="text-white mx-2" title="Instagram">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://t.me/maitoshii" target="_blank" class="text-white mx-2" title="Telegram">
+            <i class="fab fa-telegram fa-2x"></i>
+        </a>
+    </p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
